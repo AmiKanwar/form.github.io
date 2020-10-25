@@ -4,7 +4,7 @@
 	$password = '$_POST[password]';
 
 
-	$emai_from = 'shubhamkanwar216@gmail.com';
+	$email_from = 'shubhamkanwar216@gmail.com';
 
 	$email_subject = "New Form";
 
@@ -14,7 +14,7 @@
 
 	$to = "shubhakanwar10650@gmail.com";
 	
-	$headers = "From: $emai_from\r\n";
+	$headers = "From: $email_from\r\n";
 
 
 	$headers .= "Reply-To: $visitor_email \r\n";
